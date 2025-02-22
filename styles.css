@@ -44,3 +44,18 @@ body {
     font-size: 1.5rem;
 
 }
+
+.movie-details1, .movie-details2 {
+    display: inline-block;
+    vertical-align: top;
+    width: 48%;
+}
+
+.movie-details1 {
+    text-align: left;
+}
+
+.movie-details2 {
+    text-align: right;
+}
+
