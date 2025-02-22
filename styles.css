@@ -1,0 +1,45 @@
+/* Estilos generales para la página */
+body {
+    margin: 0;
+}
+
+.page-header{
+    background-color: rgba(5, 12, 46, 0.74); /* Azul */
+    padding: 5px 0;
+    height: 115px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Espaciado entre los elementos */
+    padding-left: 5%; /* Para dar un pequeño margen en el lado izquierdo */
+    padding-right: 5%; /* Para dar un pequeño margen en el lado derecho */
+}
+
+.logo-container h1 {
+    font-size: 400%;
+    background: linear-gradient(to right, #da2131,  #d5aa10);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline;
+}
+
+.buscador {
+    display: flex;
+    width: 53%;
+    margin-left: 0%;
+}
+
+.buscador input {
+    font-size: 210%;
+    flex-grow: 1;
+    margin-right: 20px;
+
+}
+
+.buscador button {
+    font-size: 200%;
+}
+
+.texto-resultante{
+    text-align: center;       /* Centra el texto dentro del párrafo */
+    font-size: 1.5rem;
+}

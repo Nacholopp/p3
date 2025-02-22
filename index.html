@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="vewport" content="width=device-width, initial-scale=1.0"> <!-- para que se vea desde cualquier dispositivo-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" rel="stylesheet">
+    <title>MegaSeries</title>
+</head>
+<link rel="stylesheet" href="styles.css">
+<body>
+    <header class = "page-header" >
+        <div class = "logo-container">
+            <h1> MegaSeries </h1>
+        </div>
+        <form class = "buscador" id = "buscador">
+            <input type = "text" id="peli-buscada" placeholder="ESCRIBE LA PELICULA QUE BUSCAS">
+            <button type="button" class="btn btn-outline-danger" id="btn-buscar">BUSCAR</button>
+        </form>
+    </header>
+
+
+
+
+    <div class="container" id="cont-pelis">
+        <h1>Detalles de la serie/película buscada</h1>
+        <div class="movie-details" id="movieDetails">
+            <img src="" alt="img" id="imgPeli">
+            <div class="info">
+                <h2 id="title"></h2>
+                <p id="description"></p>
+                <p><strong>Nombre:</strong> <span id="name"></span></p>
+                <p><strong>Valoración:</strong> <span id="rating"></span></p>
+                <p><strong>Categoría:</strong> <span id="genres"></span></p>
+                <p><strong>Descripcion:</strong> <span id="resume"></span></p>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <p class="texto-resultante" id="texto-no-peli">Por favor, introduzca una serie o película</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
