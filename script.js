@@ -14,6 +14,10 @@
                         document.getElementById("cont-pelis").style.display = "none";
                         document.getElementById("texto-no-peli").textContent = `La pelicula/serie ${serInput} no existe, pruebe con otra`;
                         document.getElementById("texto-no-peli").style.display = "block";
+                        if (serInput.trim() === ""){
+                            document.getElementById("texto-no-peli").textContent = "Por favor, introduce una serie o pelicula";
+                            document.getElementById("texto-no-peli").style.display = "block";
+                        }
                     }
                     else{
 
