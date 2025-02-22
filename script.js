@@ -34,7 +34,7 @@
 
                             const img = document.createElement("img");
                             img.src = data[i].show.image.medium;
-                            img.alt = data[i].show.name || "Imagen de la película";
+                            img.alt = data[i].show.name || "SIN RESULTADO DE IMAGEN";
 
 
 
